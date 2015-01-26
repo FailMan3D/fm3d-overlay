@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<!--
+		Note from FailMan3D: While my modified version of this ebuild is based
+		on the official version from Gentoo's Portage tree, my version is not
+		official, and will probably never be.
+
+		I am not an expert ebuild author, and I provide no guarantee that this
+		modified ebuild won't horribly damage your system.
+		In a good-faith attmept to keep people from spamming the official
+		ebuild's maintainers with bug reports that aren't their fault, I have
+		removed their contact information from this file.
+	
+		If you absolutely must contact upstream's maintainers, please see the
+		official ebuild's metadata.xml for up-to-date contact info.
+	-->
+	<maintainer>
+		<email>f000kdw@gmail.com</email>
+		<name>FailMan3D</name>
+		<description>Monkey-patcher</description>
+	</maintainer>
+	<longdescription>
+		Firebird is a relational database offering many ANSI SQL standard 
+		features that runs on Linux, Windows, and a variety of Unix platforms.
+		Firebird offers excellent concurrency, high performance, and powerful
+		language support for stored procedures and triggers. It has been used
+		in production systems, under a variety of names, since 1981.
+	</longdescription>
+	<bugs-to>https://github.com/FailMan3D/fm3d-overlay/issues</bugs-to>
+	<use>
+		<flag name='client'>Install client library and header files only</flag>
+		<flag name='superserver'>Install SuperServer (if built with USE="-xinetd", else install SuperClassic)</flag>
+		<flag name='xinetd'>Install ClassicServer (if built with USE="-superserver", else install SuperClassic)</flag>
+	</use>
+</pkgmetadata>
