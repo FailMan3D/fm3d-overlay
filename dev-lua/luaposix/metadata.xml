@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+ <description>
+ </description> 
+ <name>fm3d</name>
+</maintainer>
+<!-- Made inaccessible to Portage to keep people from pestering the original maintainer - any bugs in this are my fault, not his. -fm3d
+<maintainer>
+ <email>mva@mva.name</email>
+ <description>
+	If you have any issues, please contact me, or try to find me in IRC on Freenode, OFTC or RusNet.
+ </description> 
+ <name>Vadim A. Misbakh-Soloviov</name>
+</maintainer>
+-->
+<longdescription>FIXME</longdescription> 
+<use>
+</use>
+</pkgmetadata>
